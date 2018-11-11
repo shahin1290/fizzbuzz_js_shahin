@@ -11,5 +11,8 @@
     "stop-test-server": "lsof -ti tcp:$PORT | xargs kill"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "e2e_training_wheels": "0.0.15"
+  }
 }
