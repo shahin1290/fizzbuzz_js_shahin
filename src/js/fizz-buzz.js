@@ -1,13 +1,17 @@
 function FizzBuzz() {
     this.check = (number) => {
-        if (number % 15 === 0) {
+
+        const isDivisibleBy = (divisor) => number % divisor === 0;
+
+        if (isDivisibleBy(15)) {
             return 'FizzBuzz';
-        } else if (number % 5 === 0) {
+        } else if (isDivisibleBy(5)) {
             return 'Buzz';
-        } else if (number % 3 === 0) {
+        } else if (isDivisibleBy(3)) {
             return 'Fizz';
         } else {
             return number
         }
     }
 }
+
