@@ -9,7 +9,7 @@ We have some unit tests and a feature test by using Mocha, Chai testing environm
 - [Md Shahin Patowary](https://github.com/shahin1290/)
 
 ## Deployment
-- [Deployed Site](https://shahin1290.github.io/fizzbuzz_js/)
+- [Deployed Site](https://shahin1290.github.io/fizzbuzz_js_shahin/)
 
 ## Installation
  - npm install - to install all the dependencies
